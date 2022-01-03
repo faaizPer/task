@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML</title>
+<style>	
+	.column {
+	  flex: 33.33%;
+	  height: 200px;
+	  padding: 10px;
+	  margin: 5px;
+	  background-color: #cccccc;
+	  text-align: center;
+	}
+	.container {
+	   display: flex;
+	   
+	}
+.color
+{
+  background-color: #0000FF;
+  width :90%;
+  padding:20px;
+}
+
+}
+.container1 
+{
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}	
+	.row 
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+.align-left{
+    text-align: left;
+    
+}
+.align-right{
+    float:right
+    
+    
+}
+div.box 
+{
+    text-align: center;
+    margin: 15px;
+	width:100%;
+    
+    background-color: #fff;
+    box-shadow: 13px 1px 26px -4px rgba(207,176,176,0.61),-7px -4px 26px -4px rgba(207,176,176,0.61);
+    
+}
+.hrr hr{
+    border-radius: 7px;
+}
+@media screen and (max-width: 680px) {
+
+    .col-1 {width: 100%;}
+    .col-2 {width: 100%;}
+
+}
+</style>
+</head>  
+<body>
+	<div class="box br bg">
+	<div class="container">
+	   <div class="column">
+	   
+	    <div class = "color">
+		<h2> Basic </h2>
+		</div>
+		
+		 <p>$5</p>
+		 <p> per month </p>	
+		 <hr>
+		 <hr>
+	   </div>
+	   <div class="column">
+	   <div class = "color">
+	     <h2> Pro</h2>
+		</div>
+		 <p> $10</p>
+		 <p> Per Month </p>
+		 <hr>
+		 <hr>
+	   </div>
+	   <div class="column">
+	   	   <div class = "color">
+
+	     <h2 > Premium  </h2>
+		</div>
+			 <p>$20</p>
+			 <p> Per Month </p>
+			 <hr>
+			 <hr>
+	   </div>
+	</div>
+	<div class="container1">
+		
+                <div class="row">
+                    <div class="col-2 box pd hrr">
+                        
+                            <p class="align-left">
+                                5 Users
+                                <span class="align-right">
+                                    100 Users
+                                </span>
+                            </p>
+                            <hr>
+                       
+                        
+                            <p class="align-left">
+                                20 GB
+                                <span class="align-right">
+                                    200 GB
+                                </span>
+                            </p>
+                        
+                        <hr>
+                        
+                            <p class="align-left">
+                                1 Project
+                                <span class="align-right">
+                                    50 Project
+                                </span>
+                            </p>
+                        
+                        <hr>
+                    </div>
+                </div>
+		</div>
+    </div>
+</body>
+</html>
